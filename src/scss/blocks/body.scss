@@ -17,7 +17,7 @@ body{
 .container{
   background-color: rgb(49, 58, 72);
   width: 540px;
-  height: 364px;
+  min-height: 364px;
   text-align: center;
   
 }
@@ -32,7 +32,6 @@ button{
   height: 64px;
   border-radius: 50%;
   background-color: rgb(83, 255, 170);
-  margin-bottom: auto;
 }
 .icon{
   margin-right: auto;
