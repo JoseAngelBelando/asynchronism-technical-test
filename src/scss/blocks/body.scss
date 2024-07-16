@@ -2,6 +2,39 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #111;
+  background-color: rgb(32, 39, 51);
   font-family: sans-serif;
+}
+h1, p{
+  color: white;
+}
+body{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center; 
+}
+.container{
+  background-color: rgb(49, 58, 72);
+  width: 540px;
+  height: 364px;
+  text-align: center;
+  
+}
+h1{
+  color: rgb(83, 255, 170);
+}
+p{
+  color: rgb(206, 227, 233);
+}
+button{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: rgb(83, 255, 170);
+  margin-bottom: auto;
+}
+.icon{
+  margin-right: auto;
+  margin-left: auto;
 }
