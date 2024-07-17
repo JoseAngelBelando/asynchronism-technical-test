@@ -19,7 +19,7 @@ body{
   width: 540px;
   min-height: 364px;
   text-align: center;
-  
+  border-radius: 20px;
 }
 h1{
   color: rgb(83, 255, 170);
@@ -27,11 +27,23 @@ h1{
 p{
   color: rgb(206, 227, 233);
 }
+.image__img{
+  position: absolute;
+  top: 600px;
+  left: 800px;
+}
 button{
   width: 64px;
   height: 64px;
   border-radius: 50%;
   background-color: rgb(83, 255, 170);
+  position: absolute;
+  // top: 650px;
+  // left: 990px;
+  bottom: 0;
+  translate: -50 50%;
+  left: 50%;
+  cursor: pointer;
 }
 .icon{
   margin-right: auto;
